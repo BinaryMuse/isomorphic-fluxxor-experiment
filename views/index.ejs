@@ -1,0 +1,17 @@
+<!doctype html>
+
+<title>Isomorphic</title>
+
+<style>
+a.active {
+  font-weight: bold;
+}
+</style>
+
+<script>
+window.fluxData = <%- serializedFlux %>;
+</script>
+<div id="app-container"><%- reactMarkup %></div>
+
+<script src="/js/vendor.bundle.js"></script>
+<script src="/js/app.bundle.js"></script>
