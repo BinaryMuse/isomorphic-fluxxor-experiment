@@ -8,7 +8,7 @@ var app = express(),
 
 require("./server/web")(app);
 
-var port = process.env.NODE_ENV || 8182;
+var port = process.env.PORT || 8182;
 server.listen(port, function() {
   console.log("Listening at http://localhost:" + port);
 });
