@@ -26,7 +26,7 @@ var config = {
     filename: "[name].bundle.js",
     publicPath: "/js/"
   },
-  devtool: "eval-source-map",
+  devtool: "#inline-source-map",
   module: {
     loaders: [
       { test: /\.less$/, loader: "style!css!less" },
